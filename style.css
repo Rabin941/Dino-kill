@@ -1,0 +1,37 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+#gameCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: #1e1e1e;
+}
+#map {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.5);
+}
+#chatBox {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px;
+}
+#chatMessages {
+  max-height: 150px;
+  overflow-y: auto;
+}
+#chatInput {
+  width: 100%;
+}
